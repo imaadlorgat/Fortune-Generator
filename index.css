@@ -1,3 +1,8 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
 main {
     background-color: #7C7CFC;
     color: white;
@@ -9,10 +14,6 @@ main {
     padding: 0;
     font-size: 15px;
     font-family: 'Open Sans';
-}
-
-html {
-    margin: 0;
 }
 
 nav ul li {
@@ -27,12 +28,12 @@ li {
 }
 
 nav {
-display: flex;
-justify-content: space-between;
-padding: 10px;
-align-items: center;
-border-bottom: 1px solid white;
-font-size: 1em;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    border-bottom: 1px solid white;
+    font-size: 1em;
 }
 
 nav ul {
@@ -48,7 +49,6 @@ nav ul li a {
 
 .top {
     margin-top: 20px;
-
 }
 
 button {
